@@ -24,8 +24,8 @@ data = {
 }
 
    # Stop webdriver and return data
-   browser.quit()
-   return data
+        browser.quit()
+        return data
 
 #  Set up Splinter 
 executable_path = {'executable_path': ChromeDriverManager().install()}
